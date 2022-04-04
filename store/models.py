@@ -5,9 +5,6 @@ class Promotion(models.Model):
     description = models.CharField(max_length=255)
     discount = models.FloatField()
 
-class Test(models.Model):
-    describe = models.CharField(max_length=255)
-
 class Collection(models.Model):
     title = models.CharField(max_length=255)
 
